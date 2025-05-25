@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333333;
+    --bg-color: #ffffff;
+    --card-bg: #f8f9fa;
+    --border-color: #dee2e6;
+    --header-bg: #f8f9fa;
+}
+
+html, body, #main-container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+.card-header {
+    background-color: var(--header-bg);
+    border-bottom-color: var(--border-color);
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+.table {
+    color: var(--text-color);
+    background-color: var(--card-bg);
+}
+
+.table th,
+.table td {
+    border-color: var(--border-color);
+}
+
+.form-control, .dropdown-menu {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+.dropdown-item {
+    color: var(--text-color);
+}
+
+.dropdown-item:hover {
+    background-color: var(--border-color);
+}
+
+.js-plotly-plot .plotly, 
+.js-plotly-plot .plotly .modebar {
+    background-color: var(--card-bg) !important;
+}
+
+.navbar-dark {
+    background-color: #343a40 !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--primary-color);
+    color: white !important;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+.text-muted {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
