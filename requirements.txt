@@ -5,8 +5,3 @@ dash-bootstrap-components
 flask
 ipython
 gunicorn
-pytest==7.4.0
-pytest-cov==4.1.0
-dash[testing]==2.11.1
-pytest-xdist==3.3.1
-pytest-timeout==2.1.0
